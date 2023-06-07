@@ -14,7 +14,7 @@ module.exports = {
 
   LOGS: toBool(process.env.LOGS) || true,
 
-  ALIVE_DATA : process.env.ALIVE_DATA || "_iam alive now &sender_",
+  ALIVE_DATA : process.env.ALIVE_DATA || "_Olichou is alive now &sender_",
 
   DATABASE: DATABASE_URL === "./database.db" ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: false }) : new Sequelize(DATABASE_URL, {dialect: "postgres", ssl: true, protocol: "postgres", dialectOptions: { native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false }),
 
@@ -50,7 +50,7 @@ module.exports = {
 
   ACR_S: "ytu3AdkCu7fkRVuENhXxs9jsOW4YJtDXimAWMpJp",
 
-  SUDO: process.env.SUDO || "917025994178",
+  SUDO: process.env.SUDO || "237695942144",
 
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
 
